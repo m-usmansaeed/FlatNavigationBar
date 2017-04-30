@@ -13,6 +13,9 @@
 		D69D84CA1EB60CD200D5A929 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D69D84C81EB60CD200D5A929 /* Main.storyboard */; };
 		D69D84CC1EB60CD200D5A929 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D69D84CB1EB60CD200D5A929 /* Assets.xcassets */; };
 		D69D84CF1EB60CD200D5A929 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D69D84CD1EB60CD200D5A929 /* LaunchScreen.storyboard */; };
+		D69D84DA1EB60CEB00D5A929 /* UINavigationController+FlatNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D69D84D71EB60CEB00D5A929 /* UINavigationController+FlatNavigationBar.m */; };
+		D69D84DB1EB60CEB00D5A929 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = D69D84D91EB60CEB00D5A929 /* UIColor+Hex.m */; };
+		D69D84DD1EB60D7000D5A929 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = D69D84DC1EB60D7000D5A929 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,11 @@
 		D69D84CB1EB60CD200D5A929 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D69D84CE1EB60CD200D5A929 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D69D84D01EB60CD200D5A929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D69D84D61EB60CEB00D5A929 /* UINavigationController+FlatNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FlatNavigationBar.h"; sourceTree = "<group>"; };
+		D69D84D71EB60CEB00D5A929 /* UINavigationController+FlatNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FlatNavigationBar.m"; sourceTree = "<group>"; };
+		D69D84D81EB60CEB00D5A929 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		D69D84D91EB60CEB00D5A929 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		D69D84DC1EB60D7000D5A929 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +50,7 @@
 		D69D84B31EB60CD200D5A929 = {
 			isa = PBXGroup;
 			children = (
+				D69D84DC1EB60D7000D5A929 /* README.md */,
 				D69D84BE1EB60CD200D5A929 /* FlatNavigationBar */,
 				D69D84BD1EB60CD200D5A929 /* Products */,
 			);
@@ -66,6 +75,10 @@
 				D69D84CB1EB60CD200D5A929 /* Assets.xcassets */,
 				D69D84CD1EB60CD200D5A929 /* LaunchScreen.storyboard */,
 				D69D84D01EB60CD200D5A929 /* Info.plist */,
+				D69D84D61EB60CEB00D5A929 /* UINavigationController+FlatNavigationBar.h */,
+				D69D84D71EB60CEB00D5A929 /* UINavigationController+FlatNavigationBar.m */,
+				D69D84D81EB60CEB00D5A929 /* UIColor+Hex.h */,
+				D69D84D91EB60CEB00D5A929 /* UIColor+Hex.m */,
 				D69D84BF1EB60CD200D5A929 /* Supporting Files */,
 			);
 			path = FlatNavigationBar;
@@ -150,9 +163,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D69D84DD1EB60D7000D5A929 /* README.md in Sources */,
 				D69D84C71EB60CD200D5A929 /* ViewController.m in Sources */,
+				D69D84DB1EB60CEB00D5A929 /* UIColor+Hex.m in Sources */,
 				D69D84C41EB60CD200D5A929 /* AppDelegate.m in Sources */,
 				D69D84C11EB60CD200D5A929 /* main.m in Sources */,
+				D69D84DA1EB60CEB00D5A929 /* UINavigationController+FlatNavigationBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

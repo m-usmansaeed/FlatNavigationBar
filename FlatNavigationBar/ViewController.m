@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "UINavigationController+FlatNavigationBar.h"
+#import "UIColor+Hex.h"
 
 @interface ViewController ()
 
@@ -16,7 +18,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    [self.navigationController setFlatColorToNavigationBar:[UIColor colorWithCSS:@"#FF6772"] withTitleColor:[UIColor whiteColor] andFont:[UIFont systemFontOfSize:17]];
+
 }
 
 
